@@ -11,6 +11,7 @@ function App() {
     <div className="App">
       <form onSubmit={(e)=>handleSubmit(e)}>
         <input type="text"
+        
           placeholder='Enter a new task'
           onChange={(e) => setTask(e.target.value)}
         />
